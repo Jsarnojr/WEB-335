@@ -1,0 +1,98 @@
+{
+    "viewers": [
+      {
+        "_id": "viewer1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "watchedMovies": [
+          {
+            "movieId": "movie1",
+            "movieName": "Inception",
+            "genre": "Sci-Fi",
+            "rating": {
+              "_id": "rating1",
+              "ratingScore": 5
+            }
+          },
+          {
+            "movieId": "movie2",
+            "movieName": "The Matrix",
+            "genre": "Action",
+            "rating": {
+              "_id": "rating2",
+              "ratingScore": 4
+            }
+          }
+        ]
+      },
+      {
+        "_id": "viewer2",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "watchedMovies": [
+          {
+            "movieId": "movie1",
+            "movieName": "Inception",
+            "genre": "Sci-Fi",
+            "rating": {
+              "_id": "rating3",
+              "ratingScore": 4
+            }
+          },
+          {
+            "movieId": "movie3",
+            "movieName": "Titanic",
+            "genre": "Romance",
+            "rating": {
+              "_id": "rating4",
+              "ratingScore": 5
+            }
+          }
+        ]
+      }
+    ],
+    "movies": [
+      {
+        "_id": "movie1",
+        "movieName": "Inception",
+        "genre": "Sci-Fi"
+      },
+      {
+        "_id": "movie2",
+        "movieName": "The Matrix",
+        "genre": "Action"
+      },
+      {
+        "_id": "movie3",
+        "movieName": "Titanic",
+        "genre": "Romance"
+      }
+    ],
+    "ratings": [
+      {
+        "_id": "rating1",
+        "ratingScore": 5,
+        "viewerId": "viewer1",
+        "movieId": "movie1"
+      },
+      {
+        "_id": "rating2",
+        "ratingScore": 4,
+        "viewerId": "viewer1",
+        "movieId": "movie2"
+      },
+      {
+        "_id": "rating3",
+        "ratingScore": 4,
+        "viewerId": "viewer2",
+        "movieId": "movie1"
+      },
+      {
+        "_id": "rating4",
+        "ratingScore": 5,
+        "viewerId": "viewer2",
+        "movieId": "movie3"
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+{
+    "users": [
+      {
+        "_id": "user1",
+        "firstName": "John",
+        "lastName": "Doe",
+        "devices": [
+          {
+            "_id": "device1",
+            "deviceName": "iPhone 12",
+            "deviceType": "Smartphone",
+            "charger": {
+              "_id": "charger1",
+              "chargerType": "USB-C",
+              "voltage": "20W"
+            }
+          },
+          {
+            "_id": "device2",
+            "deviceName": "iPad Pro",
+            "deviceType": "Tablet",
+            "charger": {
+              "_id": "charger2",
+              "chargerType": "Lightning",
+              "voltage": "18W"
+            }
+          }
+        ]
+      }
+    ],
+    "chargers": [
+      {
+        "_id": "charger1",
+        "chargerType": "USB-C",
+        "voltage": "20W"
+      },
+      {
+        "_id": "charger2",
+        "chargerType": "Lightning",
+        "voltage": "18W"
+      }
+    ]
+  }
+  
